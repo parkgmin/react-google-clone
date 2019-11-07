@@ -2,9 +2,10 @@ div.title > header {
    background-color:white;
    display:flex;
    justify-content:center;
-   align-items: center;
-   height: 50vh;
+   align-items:flex-end;
+   height: 30vh;
    width: 100vw;
+   margin-bottom:50px;
 }
 
 section {
@@ -20,6 +21,7 @@ section {
    height: 44px;
    border-radius: 22px;
    border: #c5c3c3 1px solid;
+   
 }
 
 .button {
