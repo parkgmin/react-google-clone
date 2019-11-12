@@ -1,132 +1,32 @@
-div.title > header {
-   background-color:white;
-   display:flex;
-   justify-content:center;
-   align-items:flex-end;
-   height: 30vh;
-   width: 100vw;
-   margin-bottom:50px;
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:skyblue;
+    height:100vh;
+    width: 100vw;
+}
+.barColor{
+    background-color: white;
+    border: 2px solid black;
+    height:120px;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex ;
 }
 
-section {
-   display:flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
+head{
+    background-color:greenyellow;
+    color:black;
+    display:block;
+    
+}
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.searchbar {
-   display: flex;
-   width: 584px;
-   height: 44px;
-   border-radius: 22px;
-   border: #c5c3c3 1px solid;
-   
-}
-
-.button {
-   margin-top: 25px;
-}
-
-#SearchButton {
-   text-align: center;
-   margin: 8px;
-   padding: 8px 18px;
-   border: none;
-   border-radius: 8px;
-   color: dimgray;
-   background-color: #f3f3f3;
-}
-
-#LuckyButton{
-   text-align: center;
-   padding: 9px 18px;
-   margin: 8px;
-   border: none;
-   border-radius: 8px;
-   color: dimgray;
-   background-color: #f3f2f2;
-}
-
-#searchemot {
-   width: 24px;
-   margin: 10px;
-}
-
-#Text{
-   font-size: 16px;
-   width: 469px;
-   padding: 10px;
-   margin: auto 0;
-   color: rgb(117, 117,117);
-}
-
-#searchemot {
-   width: 24px;
-   padding: 10px;
-}
-
-.bottom {
-   position: absolute;
-   bottom: 0;
-   width: 100vw;
-}
-
-.bot{
-   opacity: 0.6;
-    padding:15px 20px;   
-    border-bottom: 1px solid #e4e4e4;  
-}
-.bot1{
-    opacity: 0.6;
-    padding:15px 20px;
-}
-
-.s1 {
-   font-size : 13px;
-}
-
-.s2 {
-   font-size : 13px;
-   margin-left:30px;
-}
-
-.s3 {
-   font-size : 13px;
-   margin-left:30px;
-}
-
-.s4 {
-   font-size : 13px;
-   margin-left:30px;
-}
-
-.bot2 {
-   opacity: 0.6;
-   margin-top:50px;
-}
-
-.s5{
-   font-size : 13px;
-   margin:20px;
-   
-   }
-
-.s6{
-   font-size : 13px;
-   margin:20px;
-}
-
-.s7{
-   font-size : 13px;
-   margin:20px;
-
-} 
-
-.bottom{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100vw;
-   background: #f2f2f2;   
+button{
+    
 }
